@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="icon" href="icons/png/favicon.ico">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border border-dark border-bottom">
+        <a class="navbar-brand" href="#" class="ml-auto">
+            <img src="imagenes/brand2.jpg" alt="brand" class="header-brand rounded">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" class="collapse navbar-collapse text-uppercase">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-2">
+                    <a class="nav-link h4" href="#">culture</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link h4" href="#">ilustration</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link h4" href="#">about</a>
+                </li>
+                <li>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--slider-->
+    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/slider1.1.png" class="d-block  img-fluid" alt="imagen 1">
+            </div>
+            <div class="carousel-item ">
+                <img src="imagenes/slider6.3.jpg" class="d-block img-fluid w-100" alt="imagem 2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/slider11.10.png" class="d-block  img-fluid w-100" alt="imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/slider21.png" class="d-block  img-fluid w-100" alt="imagen 4">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--Cards-->
+    
+        <div class="row m-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4">
+                <img src="imagenes/card-2-cuadro.jpg" alt="..." class="img-fluid rounded w-100">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4">
+                <img src="imagenes/card-7-cuadrado1.jpg" alt="..." class="img-fluid rounded w-100">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4">
+                <img src="imagenes/card-3-cuadrado.jpg" alt="..." class="img-fluid rounded w-100">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4">
+                <img src="imagenes/card-5-cuadrado.jpg" alt="..." class="img-fluid rounded w-100">
+            </div>
+        </div>
+
+        <!--First banner-->
+        <div class="row first-banner text-white my-4">
+            <h3 class="col-12 col-sm-12 col-md-9 col-lg-7 mt-3 ml-3">Lorem ipsum dolor sit consectetur</h3>    
+            <p class="col-12 col-sm-12 col-md-9 col-lg-7 ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem reprehenderit quisquam a cumque perspiciatis nulla inventore? Odit autem unde commodi vero, tempora tenetur perferendis! Facilis?</p> 
+            <div class="col-12 col-sm-12 col-md-9 col-lg-7 ml-3">
+                <button class="btn btn-outline-light">learn more</button>
+            </div>
+        </div>
+        
+    <!--icons-->
+    <div class="container-fluid container-md pt-5 pb-2">
+        <div class="row">
+            <div class="col-6 col-md-6 col-lg-4 mb-4">
+                <img src="icons/png/001-sword.png" alt="" class="w-50 img-resposive d-block mx-auto">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita atque ullam voluptatibus veritatis quam impedit at placeat! Sapiente, error est?
+                </p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 mb-4">
+                <img src="icons/png/003-shield.png" alt="" class="w-50 img-resposive d-block mx-auto">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis fugiat atque ut id! Consequatur, eum! Asperiores, sint quo? Perspiciatis, odit. 
+                </p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 mb-4">
+                <img src="icons/png/004-mace.png" alt="" class="w-50 d-block mx-auto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cumque error sint doloribus harum sed. Placeat libero tempora perspiciatis fuga?
+                </p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 mb-4">
+                <img src="icons/png/005-axe.png" alt="" class="w-50 img-resposive d-block mx-auto">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita atque ullam voluptatibus veritatis quam impedit at placeat! Sapiente, error est?
+                </p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 mb-4">
+                <img src="icons/png/008-arc.png" alt="" class="w-50 img-resposive d-block mx-auto">
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis fugiat atque ut id! Consequatur, eum! Asperiores, sint quo? Perspiciatis, odit.
+                </p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 mb-4">
+                <img src="icons/png/009-spear-1.png" alt="" class="w-50 d-block mx-auto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cumque error sint doloribus harum sed. Placeat libero tempora perspiciatis fuga?
+                </p>
+            </div>
+        </div>
+        <!--attribute the autor-->
+        <div class="font-weight-light text-dark text-center flaticon">
+            <div class="flaticon">Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev" class="flaticon">Nikita Golubev</a>,<a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>,<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </div>
+    </div>
+
+    <!--second banner-->
+    <div class="row second-banner my-4 text-white">
+        <h3 class="col-12 col-sm-12 col-md-9 col-lg-7 mt-3 ml-3">Lorem ipsum dolor sit consectetur</h3>
+        <p class="col-12 col-sm-12 col-md-9 col-lg-7 ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem
+            reprehenderit quisquam a cumque perspiciatis nulla inventore? Odit autem unde commodi vero, tempora tenetur
+            perferendis! Facilis?</p>
+        <div class="col-12 col-sm-12 col-md-9 col-lg-7 ml-3">
+            <button class="btn btn-outline-light">learn more</button>
+        </div>
+    </div>
+
+    <!--text-->
+    <div class="container my-5">
+        <h2 class="display-4 text-center mt-5 ">Lorem ipsum dolor sit amet </h2>
+        <p class="lead  text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magni dicta neque mollitia, maiores amet, voluptas vel
+            quisquam optio obcaecati nobis quod ea sapiente est minus fugiat minima iure repellendus. Cum repellat quidem, alias
+            odit eligendi repudiandae, atque corporis vero commodi est officiis delectus ut tempore soluta inventore? Cum tenetur
+            pariatur corrupti consequuntur quas quia porro optio commodi eveniet? Dolorum! Sequi autem earum in, eos quidem ipsum
+            perferendis ex, beatae cupiditate dignissimos facere veniam sint quibusdam obcaecati! Dignissimos voluptas nam, nostrum
+            nulla iusto deserunt repudiandae asperiores minus voluptatibus officia quasi.
+        </p>
+    </div>
+    <!--Linea horizontal-->
+    <hr class="border border-dark pt-1 bg-dark">
+
+    <!--cards-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="m-2">
+                    <p class="text-justify font-weight-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolores voluptas maxime consectetur consequuntur, laboriosam Impedit facilis
+                    </p>
+                    <div class="row border-left border-bottom border-dark rounded">
+                        <img src="imagenes/profile-4-cuadro.jpg" alt="..."  class="img-fluid col-6 rounded-circle">
+                        <h3 class="h5 col-6">Nombre Apellido</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-3 ">
+                <div class="m-2">
+                    <p class="text-justify font-weight-light ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolores voluptas maxime consectetur consequuntur,
+                        laboriosam Impedit facilis
+                    </p>
+                    <div class="row border-left border-bottom border-dark rounded">
+                        <img src="imagenes/profile-1-cuadro.jpg" alt="..." class="img-fluid col-6 rounded-circle">
+                        <h3 class="h5 col-6">Nombre Apellido</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="m-2">
+                    <p class="text-justify font-weight-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolores voluptas maxime consectetur consequuntur,
+                        laboriosam Impedit facilis
+                    </p>
+                    <div class="row border-left border-bottom border-dark rounded">
+                        <img src="imagenes/profile-2-cuadro.jpg" alt="..." class="img-fluid col-6 rounded-circle">
+                        <h3 class="h5 col-6">Nombre Apellido</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-3">
+                <div class="m-2">
+                    <p class="text-justify font-weight-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolores voluptas maxime consectetur consequuntur,
+                        laboriosam Impedit facilis
+                    </p>
+                    <div class="row border-left border-bottom border-dark rounded">
+                        <img src="imagenes/profile-3-cuadro.jpg" alt="..." class="img-fluid col-6 rounded-circle">
+                        <h3 class="h5 col-6">Nombre Apellido</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Social media-->
+    <div class="container my-3">
+        <div class="d-flex justify-content-center">
+            <div class="col-3 col-sm-2 col-md-2 col-lg-1">
+                <a href="#"><img src="icons/png/001-twitter.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-3 col-sm-2 col-md-2 col-lg-1">
+                <a href="#"><img src="icons/png/002-facebook.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-3 col-sm-2 col-md-2 col-lg-1">
+                <a href="#"><img src="icons/png/003-instagram-sketched.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-3 col-sm-2 col-md-2 col-lg-1">
+                <a href="#"><img src="icons/png/004-youtube.png" alt="" class="img-fluid"></a>
+            </div>
+        </div>
+        <!--attribute the autor-->
+        <div class="text-center font-weight-light flaticon">
+            Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>, <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer container-fluid footer-bg py-3">
+        <img src="imagenes/history-2.1.jpg" alt="" class="d-block mx-auto col-8 col-sm-6 col-md-3 col-lg-2 ronded">
+        <div class="container-fluid container-sm col-12 col-sm-8 d-flex justify-content-center flex-wrap">
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">china</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">reino unido</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">francia</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">india</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">rusia</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">irak</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">alemania</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">españa</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">etiopia</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">italia</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">japon</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">siria</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">turquia</a></div>
+            <div><a href="#" class="col-1 text-white text-capitalize country-link">EEUU</a></div>
+        </div>
+    </div>
+    <div class="container-fluid  bg-dark w-100">
+        <div class="footer container d-flex justify-content-center py-3">
+            <div class="d-flex flex-wrap col-10 text-center py-5">
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 pb-2">
+                    <h4 class="footer-title text-uppercase">ipsum dolor</h4>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit amet.</h5>
+                    </a>
+                    <a href="#" class="link-footer">
+                        <h5 class="footer-link">Lorem ipsum dolor sit</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="footer-line"/>
+    <div class="footer-rights container-fluid  bg-dark w-100 text-center py-3">
+        <h5 class="text-white">© 2020 Untitled. All rights reserved BUFFON129</h5>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

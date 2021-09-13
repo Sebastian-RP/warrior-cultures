@@ -1,0 +1,56 @@
+body{
+    background: rgba(229, 229, 205, 0.8);
+}
+
+.header-brand{
+    height: 65px;
+    width: 105px;
+}
+
+.header.underline{ color: #bfbfbf; }
+
+.first-banner{
+    background-image: url("../imagenes/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 26%;
+    height: 45vh;
+}
+
+.second-banner{
+    background-image: url("../imagenes/baner5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 62%;
+    height: 45vh;
+}
+
+/*attribute the autor*/
+.flaticon{
+    font-size: small;
+    color: #d4d4d4;
+}
+
+.flaticon a{ color: #d4d4d4; }
+
+.footer-bg{ background: #5c6670; }
+
+.footer-title{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.country-link:hover{ text-decoration-color: white; }
+
+.footer-link{
+    font-size: 0.65rem;
+    color: white;
+}
+
+.link-footer:hover{ text-decoration-color: white; }
+
+.footer-line{
+    background: #000000;
+    height: 3px;
+    margin: 0;
+}
